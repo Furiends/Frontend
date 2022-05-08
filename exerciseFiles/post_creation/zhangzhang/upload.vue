@@ -1,26 +1,18 @@
 <div class="upload clear">
- <span>image_prefer</span>
+  <span>image_prefer</span>
    <vue-core-image-upload
-     :class="['btn', 'btn-primary']"
-     :crop="false"
-     @imageuploaded="imageuploaded"
-     input-of-file="file"
-     :max-file-size="5242880"
-     :url="uploadUrl">
-     <img width="150" :src="formData.license" />
-   </vue-core-image-upload>
+      :class="['btn', 'btn-primary']"
+      :crop="false"
+      @imageuploaded="imageuploaded"
+      input-of-file="file"
+      :max-file-size="5242880"
+      :url="uploadUrl">
+      <img width="150" :src="formData.license" />
+    </vue-core-image-upload>
  </div>
-<script>
-import VueCoreImageUpload  from 'vue-core-image-upload'
-imageuploaded(res) {
-   console.log(res)
-   if(res.code == 0){
-     this.formData.license = res.url;
-   }
- },
-</script>
 
-//upload
+
+
 .upload{
   width: 100%;
   border-top: 1px solid #e1e1e1;
