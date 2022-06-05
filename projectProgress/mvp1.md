@@ -86,7 +86,7 @@ https://ext.dcloud.net.cn/search?q=%E6%8B%96%E6%8B%BD
 | 进度条                 | 否           |      |      | Chenruo |      |
 | 机构相关信息填写和校验 | 否           |      |      |         |      |
 
-# 三/Todos
+# 三/Todo
 
 - [ ] 1.  小程序申请 zhang
 - [ ] 2. 公众号和小程序入口鉴权 jiabei
