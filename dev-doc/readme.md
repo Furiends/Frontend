@@ -1,6 +1,6 @@
-本文件夹用于存放前端各模块开发文档，由相应的developer负责维护。  
+此处用于存放前端各模块开发文档，由相应的developer负责维护。
 
-！！ 请注意，开发文档中各页面/模块的命名应与[功能拆分文档](https://github.com/Furiends/Frontend/tree/main/projectProgress)的命名保持统一 ！！
+！！ 请注意：开发文档中各页面/模块的命名应与[功能拆分文档](https://github.com/Furiends/Frontend/tree/main/projectProgress)的命名保持一致 ！！
 
 # 前端开发文档模板 
 
